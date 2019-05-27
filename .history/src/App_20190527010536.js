@@ -14,6 +14,7 @@ class App extends Component {
     const todos = this.state.todos.filter(todo => {
       return todo.id !== id
     })
+
     this.setState({
       todos
     })
